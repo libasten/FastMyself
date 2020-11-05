@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>FastMyself</id>
+<name>飞刀博客主题（自己用）</name>
+<url>https://www.feidaoboke.com</url>
+<note>飞刀说博客主题。</note>
+<description>飞刀说博主自用主题</description>
+<path></path>
+<include></include>
+<level>1</level>
+<author>
+  <name>libasten</name>
+  <email>libasten@qq.com</email>
+  <url>https://www.feidaoboke.com</url>
+</author>
+<source>
+  <name></name>
+  <email></email>
+  <url></url>
+</source>
+<adapted>151935</adapted>
+<version>1.6</version>
+<pubdate>2020-11-04</pubdate>
+<modified>2020-11-04</modified>
+<price>0</price>
+<phpver>5.2</phpver>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <existsfunctions></existsfunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</theme>
