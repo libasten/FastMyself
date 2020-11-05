@@ -12,9 +12,9 @@
 		<span class="tags">{foreach $article.Tags as $tag}<a href="{$tag.Url}">{$tag.Name}</a>{/foreach}</span>
 	</div>
 </article>
-<a href="../thanks/index.php">
+<!-- <a href="../thanks/index.php">
 	<div class="thanks fd-border">赞赏博主</div>
-</a>
+</a> -->
 <div class="single-navigation fd-border">
 	<div class="single-previous">
 		{if $article.Prev}
