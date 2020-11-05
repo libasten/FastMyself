@@ -11,12 +11,11 @@
     <div class="post-text">
         <a href="{$article.Url}"><h2 class="post-header"><span class="top-info">置顶</span>{$article.Title}</h2></a>
         <div class="post-meta meta-top">
-            <span class="category">分类：<a href="{$article.Category.Url}">{$article.Category.Name}</a></span>
-            <span class="date">@{$article.Time('Y-m-d')}</span>
+            <span class="date">{$article.Time('Y-m-d')}</span>
         </div>
         <div class="post-intro">{$article.Intro}</div>
         <div class="post-meta meta-bottom clear">
-            <span class="tags"><i class="fa fa-fw fa-tags"></i>&nbsp;
+            <span class="tags">
                 {foreach $article.Tags as $tag}
                 <a href="{$tag.Url}">{$tag.Name}</a>
                 {/foreach}

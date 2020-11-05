@@ -32,7 +32,7 @@
 	</div>
 </div>
 <div class="relates fd-border">
-	<div class="title"><h3>相关博文</h3></div>
+	<div class="title"><h3>相关文章</h3></div>
 	{$array=GetList($zbp->option['ZC_RELATEDLIST_COUNT'],null,null,null,null,null,array('is_related'=>$article->ID));}
 	<ul id="related">
 	{foreach $array as $related}

@@ -159,9 +159,6 @@ article .meta-top .category a:hover{color:#121212;}
 article .meta-top .view{
     margin-left: 15px;
 }
-article .meta-top .comment{
-    margin-left: 15px;
-}
 article .meta-bottom{
     margin-top: 10px;
     position: relative;
@@ -184,25 +181,18 @@ article .meta-bottom .tags a{
 article .meta-bottom .tags a:hover{
     background-color: #333;
 }
-
-article .meta-bottom .tags a:last-child{
-    margin-right: 0px;
-}
-article .meta-bottom .read-more{
-    float: right;
-    border: 1px solid  #555555;
-    background-color: #555555;
-    padding: 3px 10px;
-    border-radius: 1px;
-    transition: box-shadow 500ms;
-}
-article .meta-bottom .read-more:hover{
-    box-shadow: 0 0 6px #555555;
-    cursor: pointer;
-}
+article .meta-bottom .tags a:last-child{margin-right: 0px;}
+article .meta-bottom .read-more{float: right;}
 article .meta-bottom .read-more a{
     color:#fff;
+    border: 1px solid  #555555;
+    background-color: #555555;
+    display: block;
+    padding:3px 10px;
+    transition: box-shadow ease 300ms;
 }
+article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
+
 /* 首页分页 */
 .pagination{
     text-align: center;margin:10px 0 0 0;;
@@ -243,7 +233,7 @@ article .meta-bottom .read-more a{
 .function:hover{
     box-shadow: 0 0 10px #ccc;
 }
-.function:hover .function_t::after{width: 106px;}
+.function:hover .function_t::after{width: 75px;}
 .function .function_t{
 	border-bottom: 1px solid #ddd;
 	margin-bottom: 0.5rem;
@@ -359,13 +349,14 @@ article .meta-bottom .read-more a{
 }
 /* 评论挂件 */
 #divComments .function_c li{
-	font-size: 15px;
-	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-	padding-bottom: 6px;
-    margin-bottom: 4px;
-	border-bottom: 1px dotted #ddd;
+    font-size: 15px;
+    overflow: hidden;
+    line-height: 22px;
+    border-bottom: 1px dotted #ddd;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    white-space: normal;
 }
 #divComments .function_c li:last-child{
     border-bottom: none;
@@ -442,7 +433,7 @@ article .meta-bottom .read-more a{
 	position: relative;
 	z-index: 2;
 	display: block;
-	height: 35px;
+	height: 25px;
 	border-radius: 2px;
 	background-color: #444;
 	color: #fff;
@@ -450,25 +441,21 @@ article .meta-bottom .read-more a{
 .rollbar a:hover{
 	color: #fff;
 }
-.rollbar .fa{
-	line-height: 32px;
-    font-size: 26px;
-}
 
 .rollbar li:hover, .rollbar li:hover h6 {
 	opacity: .9;
 	filter: alpha(opacity=90)
 }
 .rollbar li:hover h6{
-	right: 100%;
+	right: 86%;
 }
 .rollbar h6{
 	position: absolute;
     z-index: 1;
-    top: 60%;
+    top: 56%;
     right: -15%;
     margin: -14px 10px 0 0;
-    line-height: 22px;
+    line-height: 25px;
     font-size: 12px;
     background-color: #444;
     color: #fff;
@@ -479,19 +466,7 @@ article .meta-bottom .read-more a{
     filter:alpha(opacity=0);
     transition: all 0.25s;
 }
-.rollbar h6 i{
-	position: absolute;
-	right: -4px;
-	top: 50%;
-	margin-top: -4px;
-	display: inline-block;
-	width: 0;
-	height: 0;
-	vertical-align: middle;
-	border-left: 4px solid #444;
-	border-top: 4px solid rgba(0, 0, 0, 0);
-	border-bottom: 4px solid rgba(0, 0, 0, 0);
-}
+
 /* 单页 */
 .single{padding:15px 18px;color:#333;}
 .single-header{
@@ -607,7 +582,7 @@ a.tag-item{
     background-color: #999;
     color: #fff;
     padding: 4px 8px;
-    margin-top: 10px;
+    margin-top: 14px;
     transition: all 500ms;
 }
 a.tag-item:hover{    
@@ -658,9 +633,9 @@ a.tag-item:hover{
         display: none;
         position: relative;
         background-color: #fff;
-        border-bottom:1px solid #d1d1d1;
+        border-bottom:1px solid #b23432;
         width: 100%;
-        margin-bottom: 10px;
+        /* margin:1px 0 10px 0; */
     }
     .nav-menu ul li{
         display: block;
@@ -710,7 +685,6 @@ a.tag-item:hover{
     }
     article .post-text .post-meta .category{display: none;}
     article .post-text .post-meta .date{margin-left: -1px;}
-    article .post-text .post-meta .date .fa-calendar{font-size: 100%;}
     article .post-text .post-intro{
         display:none;
     }
@@ -719,11 +693,11 @@ a.tag-item:hover{
     }
     .top-info{
         border-radius: 2px;
-        background: #ff5555;
-        padding: 0px 5px;
-        font-size: 12px;
+        background: #af2c2a;
+        padding: 0px 6px;
+        font-size: 16px;
         line-height: 22px;
-        margin-right: 2px;
+        margin-right: 5px;
         position: inherit;
     }
     .top-info i{display: none;}
