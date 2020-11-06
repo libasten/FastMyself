@@ -271,7 +271,7 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 	margin-bottom: 0px;
 }
 .function .function_c ul li{
-	margin-bottom:4px;
+	margin-bottom:3px;
 	padding: 2px 0px;
     color: #616161;
 	display: block;
@@ -497,8 +497,8 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 .single-text h2{ margin-top:15px; }
 .single-text h3{ font-size:18px; margin: 10px 0 5px 0; }
 .single-text p {line-height: 26px;margin: 12px 0;}
-.single-text a {color:#0066ff; transition: all .25s;}
-.single-text a:hover {color:#0011ff;}
+.single-text a {color:#666666; transition: all .25s;}
+.single-text a:hover {color:#000000;text-decoration: underline;}
 .single-text img{max-width:100%;display: block;margin: 0 auto;}
 .sinlge-page{border-bottom:none;}
 /* single Navigation */

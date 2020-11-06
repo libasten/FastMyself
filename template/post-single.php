@@ -9,7 +9,7 @@
 		{$article.Content}
 	</div>
 	<div class="single-meta meta-bottom clear">
-		<span class="tags">{foreach $article.Tags as $tag}<a href="{$tag.Url}">{$tag.Name}</a>{/foreach}</span>
+		<span class="tags">{foreach $article.Tags as $tag}<a href="{$tag.Url}">#{$tag.Name}</a>{/foreach}</span>
 	</div>
 </article>
 <!-- <a href="../thanks/index.php">
