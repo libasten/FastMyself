@@ -271,7 +271,7 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 	margin-bottom: 0px;
 }
 .function .function_c ul li{
-	margin-bottom:2px;
+	margin-bottom:4px;
 	padding: 2px 0px;
     color: #616161;
 	display: block;
@@ -352,7 +352,7 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
     font-size: 15px;
     overflow: hidden;
     line-height: 22px;
-    border-bottom: 1px dotted #ddd;
+    border-bottom: 1px dotted #bbb;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -433,7 +433,8 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 	position: relative;
 	z-index: 2;
 	display: block;
-	height: 25px;
+	height: 33px;
+    line-height: 30px;
 	border-radius: 2px;
 	background-color: #444;
 	color: #fff;
