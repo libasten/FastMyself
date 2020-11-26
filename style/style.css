@@ -278,8 +278,8 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 	transition: all 500ms;
 }
 .function .function_c ul li:hover{
-	color: #222222!important;
-	cursor: pointer;
+	color: #111111!important;
+    cursor: pointer;
 }
 .function .function_c ul li:hover a{
 	color:#222222;
@@ -406,6 +406,12 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
     clear: both;
     width: 100%;
     background-color: #fff;
+}
+/* 热门文章 */
+#hotArticles li{border-bottom:1px dotted #cecece;}
+#hotArticles .function_c li:last-child{
+    border-bottom: none;
+    padding-bottom: 0px;
 }
 
 /* rollbar ======================================================================================================== */
@@ -553,7 +559,7 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
     border-radius: 2px;
     line-height: 1.25;
     color: #555555;
-    background-color: #fff;
+    background-color: #ccc;
     border: 1px solid #dee2e6;
     transition: background-color 500ms;
 }
