@@ -500,11 +500,11 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 .single-text{
     padding:2px 0; border-top:1px solid #efefef; border-bottom:1px solid #efefef;
 }
-.single-text h2{ margin-top:15px; }
+.single-text h2{ margin-top:15px; border-left:4px solid #b23432; padding-left: 6px; background-color: #f6f6f6;line-height: 35px;}
 .single-text h3{ font-size:18px; margin: 10px 0 5px 0; }
 .single-text p {line-height: 26px;margin: 12px 0;}
-.single-text a {color:#666666; transition: all .25s;}
-.single-text a:hover {color:#000000;text-decoration: underline;}
+.single-text a {color:#af2c2a;}
+.single-text a:hover {color:#af2c2a; text-decoration: underline;}
 .single-text img{max-width:100%;display: block;margin: 0 auto;}
 .sinlge-page{border-bottom:none;}
 /* single Navigation */
@@ -547,7 +547,7 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 .revertcomment a:hover{color:#222222;}
 .comment-post{margin-top: 15px;}
 #txaArticle{font-size: 15px;padding: 4px;font-family: 'Microsoft Yahei';width: 100%;}
-.comment-post input.button{margin-top: 10px;transition: box-shadow 500ms;font-size: 15px;}
+.comment-post input.button{margin-top: 10px;transition: box-shadow 500ms;font-size: 15px;padding:2px 20px;}
 .comment-post input.button:hover{cursor: pointer;box-shadow: 0 0 2px #222222;}
 .comment-post p{margin-top: -5px;}
 #divCommentPost.reply-frm{box-shadow: 0 0 5px #aaa;border-radius: .25rem;margin: .5rem .5rem 0 .5rem !important; border-top:none;padding:0.1rem 0.5rem;}
