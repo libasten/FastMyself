@@ -15,11 +15,7 @@
         </div>
         <div class="post-intro">{$article.Intro}</div>
         <div class="post-meta meta-bottom clear">
-            <span class="tags">
-                {foreach $article.Tags as $tag}
-                <a href="{$tag.Url}">{$tag.Name}</a>
-                {/foreach}
-            </span>
+            <span class="tags">{foreach $article.Tags as $tag}<a href="{$tag.Url}">#{$tag.Name}</a>{/foreach}</span>
             <span class="read-more"><a href="{$article.Url}">阅读全文...</a></span>
         </div>
     </div>
