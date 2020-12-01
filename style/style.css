@@ -500,7 +500,7 @@ article .meta-bottom .read-more a:hover{box-shadow: 0 0 6px #666666;}
 .single-text{
     padding:2px 0; border-top:1px solid #efefef; border-bottom:1px solid #efefef;
 }
-.single-text h2{ margin-top:15px; border-left:4px solid #b23432; padding-left: 6px; background-color: #f6f6f6;line-height: 35px;}
+.single-text h2{ margin-top:15px; border-left:4px solid #b23432; padding-left: 8px; background-color: #f6f6f6;line-height: 35px;}
 .single-text h3{ font-size:18px; margin: 10px 0 5px 0; }
 .single-text p {line-height: 26px;margin: 12px 0;}
 .single-text a {color:#af2c2a;}
