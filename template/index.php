@@ -1,6 +1,22 @@
 {template:header}
 <div class="main">
   <div class="content">
+    {if $type=='category'}
+    <div class="page-header fd-border">
+      <div>
+        <h1>{$category.Name}</h1>
+        <div class="header-info">类别归档</div>
+      </div>
+    </div>
+    {/if}
+    {if $type=='tag'}
+    <div class="page-header fd-border">
+      <div>
+        <h1>{$tag.Name}</h1>
+        <div class="header-info">标签归档</div>
+      </div>
+    </div>
+    {/if}
     <div class="article-list">
       {foreach $articles as $article}
       {if $article.IsTop}
