@@ -2,9 +2,11 @@
 <html lang="zh-CN">
 
 <head>
-  <script>
-    if (document.domain !== 'www.feidaoboke.com') {
-      document.location = 'https://www.feidaoboke.com';
+  <script type="text/javascript">
+    var hostname=top.location.href;
+    if(hostname.indexOf('feidaoboke.com')<0)
+    {
+      window.location.href='https://www.feidaoboke.com'; 
     }
   </script>
   <meta charset="utf-8">
