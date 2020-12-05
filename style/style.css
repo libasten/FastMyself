@@ -762,6 +762,7 @@ input[type=submit] {
     max-width: 100%;
     display: block;
     margin: 5px auto 18px auto;
+    box-shadow: 0 0 2px #555;
 }
 
 .sinlge-page {
