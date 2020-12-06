@@ -5,7 +5,7 @@
     <div class="page-header fd-border">
       <div>
         <h1>{$category.Name}</h1>
-        <div class="header-info">类别归档</div>
+        <div class="header-info">分类归档</div>
       </div>
     </div>
     {/if}
