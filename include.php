@@ -25,7 +25,7 @@ function InstallPlugin_FastMyself() {
     global $zbp;
     if(!$zbp->HasConfig('FastMyself')){
 		$zbp->Config('FastMyself')->description = '飞刀博客（feidaoboke.com）, 是包括读书笔记、随笔日志、信息技术、足球评价和新闻资讯相关的博客，作者为河边的飞刀';
-        $zbp->Config('FastMyself')->keywords = '读书,新闻,意甲,中超,足球,程序,HTML,JavaScript,CSS,C#';
+        $zbp->Config('FastMyself')->keywords = '博客,飞刀博客,个人博客,读书,新闻,足球,程序,C#,HTML,JavaScript,CSS,PHP';
         $zbp->Config('FastMyself')->isImgLogo = 1;
         $zbp->Config('FastMyself')->logo = $zbp->host . 'zb_users/theme/FastMyself/style/img/logo.png';
         $zbp->Config('FastMyself')->favicon = $zbp->host . 'zb_users/theme/FastMyself/style/img/favicon.ico';
