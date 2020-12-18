@@ -2,13 +2,6 @@
 <html lang="zh-CN">
 
 <head>
-  <script type="text/javascript">
-    var hostname=top.location.href;
-    if(hostname.indexOf('feidaoboke.com')<0)
-    {
-      window.location.href='https://www.feidaoboke.com'; 
-    }
-  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {if $type=='index'}
