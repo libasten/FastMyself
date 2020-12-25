@@ -17,7 +17,7 @@
 			<p><label for="inpHomePage">网站</label><input type="text" name="inpHomePage" id="inpHomePage" class="text" value="{$user.HomePage}" size="28" tabindex="3" /></p>
 			{if $option['ZC_COMMENT_VERIFY_ENABLE']}
 			<p><label for="inpVerify">验证码(*)</label><input type="text" name="inpVerify" id="inpVerify" class="text" value="" size="28" tabindex="4" />
-				<img style="width:{$option['ZC_VERIFYCODE_WIDTH']}px;height:{$option['ZC_VERIFYCODE_HEIGHT']}px;cursor:pointer;" src="{$article.ValidCodeUrl}" alt="" title="" onclick="javascript:this.src='{$article.ValidCodeUrl}&amp;tm='+Math.random();" />
+				<img style="width:{$option['ZC_VERIFYCODE_WIDTH']}px;height:{$option['ZC_VERIFYCODE_HEIGHT']}px;cursor:pointer;margin-top: 5px;" src="{$article.ValidCodeUrl}" alt="" title="" onclick="javascript:this.src='{$article.ValidCodeUrl}&amp;tm='+Math.random();" />
 			</p>
 			{/if}
 

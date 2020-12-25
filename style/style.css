@@ -875,8 +875,33 @@ input[type=submit] {
 #txaArticle {
     font-size: 15px;
     padding: 4px;
-    font-family: 'Microsoft Yahei';
     width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 0;
+    font-family: 'Microsoft Yahei';
+}
+
+#txaArticle:focus {
+    outline: none;
+    border: 1px solid #666666;
+}
+
+.comment-post input {
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    border-radius: 0;
+    line-height: 21px;
+    font-family: 'Microsoft Yahei';
+}
+
+.comment-post label {
+    font-size: 15px;
+}
+
+.comment-post input:focus {
+    outline: none;
+    border: 1px solid #666666;
+    border-radius: 0;
 }
 
 .comment-post input.button {
