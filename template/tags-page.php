@@ -1,7 +1,7 @@
 {template:header}
 <div class="main">
 	<div class="content">
-		<article class="single fd-border">
+		<article class="single box-border">
 			<h1 class="single-header">{$article.Title}</h1>
 			<div class="single-text sinlge-page">
 				<!-- get random tags -->

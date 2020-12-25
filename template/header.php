@@ -43,11 +43,7 @@
   <div class="header">
     <div class="header-container clear">
       <div class="brand">
-        {if $zbp->Config('FastMyself')->isImgLogo > 0 }
         <a href="{$host}" title="{$name}"><img src="{$zbp->Config('FastMyself')->logo}" alt="{$name}"></a>
-        {else}
-        <a href="{$host}" class="title-text">{$name}</a>
-        {/if}
       </div>
       <div class="menu-btn" type="button">
         <span class="navicon"></span>

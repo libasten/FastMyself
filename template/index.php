@@ -2,7 +2,7 @@
 <div class="main">
   <div class="content">
     {if $type=='category'}
-    <div class="page-header fd-border">
+    <div class="page-header box-border">
       <div>
         <h1>{$category.Name}</h1>
         <div class="header-info">分类归档</div>
@@ -10,7 +10,7 @@
     </div>
     {/if}
     {if $type=='tag'}
-    <div class="page-header fd-border">
+    <div class="page-header box-border">
       <div>
         <h1>{$tag.Name}</h1>
         <div class="header-info">标签归档</div>
