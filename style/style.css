@@ -312,8 +312,7 @@ article blockquote {
     ;
 }
 
-.pagination a,
-.now-page {
+.pagination a {
     display: inline-block;
     padding: 4px 10px;
     border-radius: 2px;
@@ -325,7 +324,15 @@ article blockquote {
 }
 
 .pagination a:hover {
-    background-color: #ccc;
+    background-color: #888888;
+}
+
+.now-page {
+    display: inline-block;
+    padding: 4px 10px;
+    color: #eee;
+    background-color: #888888;
+    border: 1px solid #ffffff;
 }
 
 .sider {
@@ -581,9 +588,8 @@ input[type=submit] {
 
 .rollbar li {
     position: relative;
-    margin-top: 5px;
     text-align: center;
-    opacity: .4;
+    opacity: .5;
     filter: alpha(opacity=40);
 }
 
@@ -598,15 +604,10 @@ input[type=submit] {
     color: #fff;
 }
 
-.rollbar a:hover {
-    color: #fff;
-}
-
-.rollbar li:hover,
 .rollbar li:hover h6 {
     opacity: .9;
     filter: alpha(opacity=90);
-    right: 86%;
+    right: 75%;
 }
 
 .rollbar h6 {
@@ -621,7 +622,6 @@ input[type=submit] {
     color: #fff;
     width: 52px;
     border-radius: 2px;
-    text-align: center;
     opacity: 0;
     filter: alpha(opacity=0);
     transition: all 0.25s;
@@ -953,24 +953,19 @@ a#cancel-reply:hover {
     margin: 15px auto;
 }
 
-.commentpagebar a,
-.now-page {
+.commentpagebar a {
     display: inline-block;
     padding: 4px 10px;
     border-radius: 2px;
     line-height: 1.25;
-    box-shadow: 0 0 1px #555;
+    color: #fff;
+    background-color: #555555;
+    border: 1px solid #dee2e6;
     transition: background-color 500ms;
 }
 
 .commentpagebar a:hover {
     background-color: #ccc;
-}
-
-.commentpagebar .now-page {
-    color: #fff;
-    background-color: #555555;
-    border: 1px solid #dee2e6;
 }
 
 
