@@ -35,8 +35,10 @@
   <meta name="keywords" content="{$title},{$name}">
   {/if}
   <link href="{$host}zb_users/theme/{$theme}/style/{$style}.css" rel="stylesheet">
-  <link rel="icon" type="images/x-icon" href="{$zbp->Config('FastMyself')->favicon}">
-  <link rel="shortcut icon" href="{$zbp->Config('FastMyself')->favicon}">
+  <link rel="shortcut icon" type="images/x-icon" href="{$zbp->Config('FastMyself')->favicon}">
+  {if $type=='index'&&$page=='1'}
+  <link rel="alternate" type="application/rss+xml" href="{$feedurl}" title="{$name}">
+  {/if}
 </head>
 
 <body>
