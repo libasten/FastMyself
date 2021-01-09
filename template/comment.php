@@ -8,10 +8,12 @@
 	</div>
 	<div class="msgarticle">
 		{$comment.Content}
+		{if count($comment.Comments)>0}
 		<ol class="children-comment-list">
 			{foreach $comment.Comments as $comment}
 			{template:comment}
 			{/foreach}
 		</ol>
+		{/if}
 	</div>
 </li>
