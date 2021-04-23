@@ -303,6 +303,18 @@ article blockquote {
     color: #444;
 }
 
+article table {
+    border-right: 1px solid #f5f2f0;
+    border-bottom: 1px solid #f5f2f0;
+    border-collapse: collapse;
+}
+
+article table td {
+    border-left: 1px solid #f5f2f0;
+    border-top: 1px solid #f5f2f0;
+    padding: 4px;
+}
+
 
 /* 首页分页 */
 
