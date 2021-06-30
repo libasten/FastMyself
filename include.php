@@ -10,7 +10,7 @@ function ActivePlugin_FastMyself() {
 // 在顶部添加菜单    	    	 	    	 	     
 function FastMyself_AddMenu(&$m){    				        	 		 	  
     global $zbp;       	 	       	  	 	 
-    $m[] = MakeTopMenu("root", 'FastMyself主题设置', $zbp->host . "zb_users/theme/FastMyself/editor.php", "", "topmenu_FastMyself","icon-cpu-fill");    			         			 	   
+    $m[] = MakeTopMenu("root", 'FastMyself主题设置', $zbp->host . "zb_users/theme/FastMyself/editor.php", "", "topmenu_FastMyself","icon-window-fill");    			         			 	   
 }
 
 function FastMyself_Filter_Plugin_Edit_Response5(){     		  		       	   		
