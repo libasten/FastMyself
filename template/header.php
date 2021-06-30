@@ -34,7 +34,7 @@
   <meta name="description" content="{$name}网站中包含{$title}标签的文章。">
   <meta name="keywords" content="{$title},{$name}">
   {/if}
-  <link href="{$host}zb_users/theme/{$theme}/style/{$style}.css?v=1" rel="stylesheet">
+  <link href="{$host}zb_users/theme/{$theme}/style/{$style}.css?v=2" rel="stylesheet">
   <link rel="shortcut icon" type="images/x-icon" href="{$zbp->Config('FastMyself')->favicon}">
   {if $type=='index'&&$page=='1'}
   <link rel="alternate" type="application/rss+xml" href="{$feedurl}" title="{$name}">
