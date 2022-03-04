@@ -887,6 +887,7 @@ input[type=submit] {
     margin-top: 15px;
 }
 
+
 #txaArticle {
     font-size: 15px;
     padding: 4px;
@@ -899,6 +900,10 @@ input[type=submit] {
 #txaArticle:focus {
     outline: none;
     border: 1px solid #666666;
+}
+
+#divCommentPost{
+    border-top: 1px solid #999;
 }
 
 #divCommentPost input {
