@@ -1243,6 +1243,9 @@ a.tag-item:hover {
     .relates {
         padding: 10px 15px 10px 15px;
     }
+    .comments {
+        padding: 10px 15px 10px 15px;
+    }
     .sider2 .function:last-child {
         margin-bottom: 0px;
     }
