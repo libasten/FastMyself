@@ -193,8 +193,8 @@ article figure {
 }
 
 article figure img {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     transition: all 500ms ease;
 }
 
@@ -371,7 +371,7 @@ input[type=submit] {
 /* 边栏挂件 */
 
 .function {
-    padding: 15px 15px 15px 15px;
+    padding: 16px 20px;
     overflow: hidden;
     transition: box-shadow 500ms;
     margin-bottom: 15px;
@@ -450,8 +450,8 @@ input[type=submit] {
 .function .function_c ul li:last-child {
     border-bottom: none;
     padding-bottom: 0px;
+    margin-bottom:0px;
 }
-
 
 /* 日历挂件 */
 
@@ -646,12 +646,11 @@ input[type=submit] {
 /* 单页 */
 
 .single {
-    padding: 15px 18px;
+    padding: 15px 25px;
     color: #333;
 }
 
 .single-header {
-    margin-top: 5px;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -697,7 +696,7 @@ input[type=submit] {
 
 .single-text p {
     line-height: 28px;
-    margin: 12px 0;
+    margin: 13px 0;
 }
 
 .single-text a {
@@ -788,7 +787,7 @@ input[type=submit] {
 
 .relates {
     color: #444;
-    padding: 15px;
+    padding: 20px 25px;
     margin: 0 0 15px;
 }
 
@@ -828,7 +827,7 @@ input[type=submit] {
 /* comment */
 
 .comments {
-    padding: 15px;
+    padding: 20px 25px;
     color: #444;
 }
 
@@ -887,7 +886,6 @@ input[type=submit] {
 .comment-post {
     margin-top: 15px;
 }
-
 
 #txaArticle {
     font-size: 15px;
@@ -1210,6 +1208,7 @@ a.tag-item:hover {
     }
     article .single-header {
         font-size: 20px;
+        /*margin-top: 10px;*/
         margin-bottom: 10px;
     }
     .single-meta.meta-top {
