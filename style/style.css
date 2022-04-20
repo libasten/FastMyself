@@ -684,9 +684,10 @@ input[type=submit] {
 
 .single-text h2 {
     border-left: 4px solid #b23432;
+    border-bottom: 1px solid #b23432;
     padding-left: 8px;
-    background-color: #efefef;
     line-height: 36px;
+    margin-top: 12px;
 }
 
 .single-text h3 {
@@ -696,7 +697,7 @@ input[type=submit] {
 
 .single-text p {
     line-height: 28px;
-    margin: 13px 0;
+    margin: 8px 0 0 0;
 }
 
 .single-text a {
