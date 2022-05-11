@@ -300,7 +300,7 @@ article .meta-bottom .read-more a:hover {
 
 article blockquote {
     margin: 10px 0px 0px 0px;
-    padding: 1px 0px 1px 15px;
+    padding: 1px 0px 8px 15px;
     border-left: 4px solid #888888;
     background: #eaeaea;
     font-size: 15px;
