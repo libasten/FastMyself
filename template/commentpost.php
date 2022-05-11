@@ -1,7 +1,7 @@
 <div class="comment-post">
 	<div class="post" id="divCommentPost">
 		<p class="posttop">
-			<a name="comment" style="margin-right:10px;">{if $user.ID>0}{$user.StaticName}{/if}</a>
+			<a name="comment" style="padding-right:5px;font-weight:700;">{if $user.ID>0}{$user.StaticName}{/if}</a>
 			<a rel="nofollow" id="cancel-reply" href="#divCommentPost" style="display:none;"><small>取消回复</small></a>
 		</p>
 		<form id="frmSumbit" target="_self" method="post" action="{$article.CommentPostUrl}">
