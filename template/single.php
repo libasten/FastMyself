@@ -17,7 +17,7 @@
 	<div class="rollbar" style="display: none;">
 		<ul>
 			<li><a href="javascript:(scrollTo({top:0,behavior:'smooth'}));">^</a>
-				<h6>去顶部<i></i></h6>
+				<h6>回到顶部<i></i></h6>
 			</li>
 		</ul>
 	</div>
