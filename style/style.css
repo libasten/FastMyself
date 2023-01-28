@@ -108,6 +108,10 @@ a {
     padding: 0 15px;
 }
 
+.nav-menu ul li:last-child a {
+    padding: 0 0 0 15px;
+}
+
 .nav-menu ul li a.on {
     color: #b02e2c;
 }
@@ -202,6 +206,7 @@ article .post-text {
     margin-left: 250px;
     font-size: 15px;
 }
+
 /* 列表页不显示文章缩略图的样式 */
 article .post-text.no-figure {
     margin-left: 0px;
@@ -1137,7 +1142,11 @@ a.tag-item:hover {
         position: relative;
         background-color: #fff;
         width: 100%;
-        border-top: 1px solid #ddd;
+        border-top: 1px solid #ccc;
+    }
+
+    .nav-menu ul {
+        padding: 5px 0 5px 0;
     }
 
     .nav-menu ul li {
@@ -1153,8 +1162,8 @@ a.tag-item:hover {
         width: 90px;
     }
 
-    .nav-menu ul li:last-child {
-        margin-bottom: 2px;
+    .nav-menu ul li:last-child a {
+        padding: 0 0 0 0;
     }
 
     .main {
