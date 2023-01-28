@@ -202,6 +202,11 @@ article .post-text {
     margin-left: 250px;
     font-size: 15px;
 }
+/* 列表页不显示文章缩略图的样式 */
+article .post-text.no-figure {
+    margin-left: 0px;
+    font-size: 15px;
+}
 
 article h2 {
     font-size: 20px;
@@ -437,7 +442,7 @@ input[type=submit] {
 }
 
 .function .function_c ul li:hover {
-    color: #111111!important;
+    color: #111111 !important;
     cursor: pointer;
     margin-left: 2px;
 }
@@ -449,7 +454,7 @@ input[type=submit] {
 .function .function_c ul li:last-child {
     border-bottom: none;
     padding-bottom: 0px;
-    margin-bottom:0px;
+    margin-bottom: 0px;
 }
 
 /* 日历挂件 */
@@ -716,7 +721,7 @@ input[type=submit] {
     margin: 12px auto;
 }
 
-.sinlge-page{
+.sinlge-page {
     padding: 2px 0 5px 0;
     border-bottom: none;
     margin-bottom: 0px;
@@ -909,7 +914,7 @@ input[type=submit] {
     border: 1px solid #666666;
 }
 
-#divCommentPost{
+#divCommentPost {
     border-top: 1px solid #dadada;
 }
 
@@ -937,7 +942,7 @@ input[type=submit] {
     margin-top: 10px;
     transition: box-shadow 300ms ease;
     padding: 6px 30px;
-    width:100px;
+    width: 100px;
 }
 
 #divCommentPost input.button:hover {
@@ -961,7 +966,7 @@ input[type=submit] {
     margin-top: 10px;
     transition: box-shadow 300ms ease;
     padding: 6px 30px;
-    width:100px;
+    width: 100px;
 }
 
 #divCommentPost.reply-frm input[name="sumbit"]:hover {
@@ -1029,6 +1034,7 @@ a.tag-item:hover {
     .content {
         width: 72%;
     }
+
     .sider {
         width: 26%;
         margin-left: 10px;
@@ -1040,17 +1046,21 @@ a.tag-item:hover {
         height: calc(100% - 80px);
         background-color: #f6f6f6;
     }
+
     .header {
         height: auto;
     }
+
     .brand {
         margin-left: 10px;
         margin-top: 0px;
         height: 48px;
     }
+
     .brand img {
         height: 100%;
     }
+
     .menu-btn {
         display: block;
         border-radius: 4px;
@@ -1062,6 +1072,7 @@ a.tag-item:hover {
         font-size: 22px;
         height: 40px;
     }
+
     .navicon {
         display: block;
         position: relative;
@@ -1070,6 +1081,7 @@ a.tag-item:hover {
         background-color: #555;
         margin-top: 12px;
     }
+
     .navicon:before,
     .navicon:after {
         content: '';
@@ -1085,25 +1097,31 @@ a.tag-item:hover {
         -webkit-transition-duration: 200ms;
         transition-duration: 200ms;
     }
+
     .navicon:before {
         margin-top: -10px;
     }
+
     .navicon:after {
         margin-top: 10px;
     }
+
     .open .navicon {
         background: none
     }
+
     .open .navicon:before {
         margin-top: 0;
         -webkit-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+
     .open .navicon:after {
         margin-top: 0;
         -webkit-transform: rotate(-45deg);
         transform: rotate(-45deg);
     }
+
     .open .navicon:before,
     .open .navicon:after {
         content: '';
@@ -1113,6 +1131,7 @@ a.tag-item:hover {
         position: absolute;
         background: #555;
     }
+
     .nav-menu {
         display: none;
         position: relative;
@@ -1120,49 +1139,61 @@ a.tag-item:hover {
         width: 100%;
         border-top: 1px solid #ddd;
     }
+
     .nav-menu ul li {
         display: block;
         height: 30px;
         line-height: 30px;
     }
+
     .nav-menu ul li:hover ul {
         left: 80px;
         left: 230px;
         position: relative;
         width: 90px;
     }
+
     .nav-menu ul li:last-child {
         margin-bottom: 2px;
     }
+
     .main {
         margin-top: 10px;
     }
+
     .page-header {
         padding: 12px 15px 12px 15px;
         margin-bottom: 5px;
     }
+
     .content {
         width: 100%;
         margin-bottom: 15px;
     }
+
     .box-border {
         border-left: none !important;
         border-right: none !important;
     }
+
     article {
         padding: 12px 15px 12px 15px;
     }
+
     .article-list article {
         margin-bottom: 5px;
     }
+
     article figure {
         float: right;
         width: 122px;
         height: 78px;
     }
+
     article .post-text {
         margin: 0 130px 0 0;
     }
+
     article .post-text h2 {
         color: #2d2d32;
         height: 50px;
@@ -1175,22 +1206,28 @@ a.tag-item:hover {
         -webkit-box-orient: vertical;
         white-space: normal;
     }
+
     article .post-text .meta-top {
         margin-top: 0px;
         margin-bottom: 0px;
     }
+
     article .post-text .post-meta .category {
         display: none;
     }
+
     article .post-text .post-meta .date {
         margin-left: -1px;
     }
+
     article .post-text .post-intro {
         display: none;
     }
+
     article .post-text .meta-bottom {
         display: none;
     }
+
     .top-info {
         border-radius: 2px;
         background: #af2c2a;
@@ -1200,61 +1237,78 @@ a.tag-item:hover {
         margin-right: 5px;
         position: inherit;
     }
+
     .rollbar li:hover h6 {
         display: none;
     }
+
     .sider {
         display: none;
     }
+
     .sider2 {
         display: block;
     }
+
     /* 单页 */
     .single {
         padding: 10px 15px 14px 15px;
     }
+
     article .single-header {
         font-size: 20px;
         /*margin-top: 10px;*/
         margin-bottom: 10px;
     }
+
     .single-meta.meta-top {
         margin-bottom: 10px;
         font-size: 12px;
     }
+
     .single-text img {
         max-width: 100% !important;
         height: auto !important;
     }
+
     .single-navigation {
         padding: 12px 15px 12px 15px;
     }
+
     .single-navigation div {
         width: 100%;
     }
+
     .single-navigation div .title-prefix {
         display: block;
     }
+
     .single-navigation div a:after {
         display: none;
     }
+
     .single-previous {
         padding-left: 0;
         margin-bottom: 10px;
     }
+
     .single-next {
         padding-right: 0;
         text-align: left;
     }
+
     .relates {
         padding: 12px 15px 12px 15px;
     }
+
     .comments {
         padding: 10px 15px 10px 15px;
     }
+
     .sider2 .function:last-child {
         margin-bottom: 0px;
     }
+
     .footer {
         margin-top: 15px;
     }
@@ -1264,27 +1318,34 @@ a.tag-item:hover {
     .post-meta .category {
         display: none;
     }
+
     .post-meta .date {
         margin-left: 0px !important;
     }
+
     .article-list article {
         padding: 10px 12px 10px 12px;
     }
+
     article figure {
         width: 100px;
         height: 64px;
     }
+
     article .post-text h2 {
         font-size: 16px;
         height: 48px;
         margin: 0 0 0 0;
     }
+
     article .post-text {
         margin-right: 110px;
     }
+
     .post-meta.meta-top {
         font-size: 12px;
     }
+
     .single-meta.meta-top .comment {
         display: none;
     }

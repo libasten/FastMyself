@@ -1,14 +1,12 @@
 <article class="article-list-item box-border">
+    {if trim($article.Metas.fdsImage)!==''}
     <figure class="post-img">
-        <a href="{$article.Url}">
-        {if $article.Metas.fdsImage!=null}
-            <img src="{$article.Metas.fdsImage}" alt="{$article.Title}">
-        {else}
-            <img src="{$zbp->Config('FastMyself')->thumbnail}" alt="{$article.Title}">
-        {/if}
-        </a>
+        <a href="{$article.Url}"><img src="{$article.Metas.fdsImage}" alt="{$article.Title}"></a>
     </figure>
     <div class="post-text">
+    {else}
+    <div class="post-text no-figure">
+    {/if}
         <a href="{$article.Url}"><h2 class="post-header">{$article.Title}</h2></a>
         <div class="post-meta meta-top">
             <span class="date">{$article.Time('Y-m-d')}</span>
