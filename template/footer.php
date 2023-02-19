@@ -6,6 +6,7 @@
 <script src="{$host}zb_system/script/zblogphp.js" type="text/javascript"></script>
 <script src="{$host}zb_system/script/c_html_js_add.php" type="text/javascript"></script>
 <script src="{$host}zb_users/theme/{$theme}/script/custom.js" type="text/javascript"></script>
+{$footer}
 </body>
 
 </html>

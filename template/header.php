@@ -39,6 +39,7 @@
   {if $type=='index'&&$page=='1'}
   <link rel="alternate" type="application/rss+xml" href="{$feedurl}" title="{$name}">
   {/if}
+  {$header}
 </head>
 
 <body>
