@@ -428,6 +428,8 @@ input[type=submit] {
 .function .function_c a {
     color: #333;
     transition: all 500ms;
+    display: block;
+    width: 100%;
 }
 
 .function .function_c ul {
