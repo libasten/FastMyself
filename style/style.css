@@ -72,9 +72,12 @@ a {
     height: 56px;
 }
 
-.brand .title-text {
-    font-size: 36px;
-    line-height: 54px;
+.brand .site-title {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 700;
+    text-shadow: 1px 1px 0px #af2c2a;
+    letter-spacing: 2px;
 }
 
 .brand img {
@@ -1067,6 +1070,12 @@ a.tag-item:hover {
     .brand img {
         height: 100%;
     }
+    
+    .brand .site-title {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
 
     .menu-btn {
         display: block;

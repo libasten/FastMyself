@@ -34,7 +34,7 @@
   <meta name="description" content="{$name}网站中包含{$title}标签的文章。">
   <meta name="keywords" content="{$title},{$name}">
   {/if}
-  <link href="{$host}zb_users/theme/{$theme}/style/{$style}.css?v=2" rel="stylesheet">
+  <link href="{$host}zb_users/theme/{$theme}/style/{$style}.css?v=4" rel="stylesheet">
   <link rel="shortcut icon" type="images/x-icon" href="{$zbp->Config('FastMyself')->favicon}">
   {if $type=='index'&&$page=='1'}
   <link rel="alternate" type="application/rss+xml" href="{$feedurl}" title="{$name}">
@@ -46,7 +46,13 @@
   <div class="header">
     <div class="header-container clear">
       <div class="brand">
-        <a href="{$host}" title="{$name}"><img src="{$zbp->Config('FastMyself')->logo}" alt="{$name}"></a>
+        <a href="{$host}" title="{$name}">
+            {if $zbp->Config('FastMyself')->isImgLogo }
+            <img src="{$zbp->Config('FastMyself')->logo}" alt="{$name}">
+            {else}
+            <div class="site-title">{$name}</div>
+            {/if}
+        </a>
       </div>
       <div class="menu-btn" type="button">
         <span class="navicon"></span>
