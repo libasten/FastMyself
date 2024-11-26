@@ -1197,6 +1197,7 @@ a.tag-item:hover {
 
     .main {
         margin-top: 10px;
+        padding:0px 6px;
     }
 
     .page-header {
@@ -1219,7 +1220,7 @@ a.tag-item:hover {
     }
 
     .article-list article {
-        margin-bottom: 5px;
+        margin-bottom: 6px;
     }
 
     article figure {
