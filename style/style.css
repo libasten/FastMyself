@@ -147,6 +147,7 @@ a {
 .box-border {
     background-color: #fff;
     box-shadow: 0 0 5px #ddd;
+    border-radius: 6px;
 }
 
 .top-info {
@@ -168,6 +169,7 @@ article {
     overflow: hidden;
     margin-bottom: 15px;
     transition: box-shadow 500ms;
+    border-radius: 6px;
 }
 
 article.article-list-item:hover {
@@ -197,6 +199,7 @@ article figure {
     height: 150px;
     border-radius: 2px;
     overflow: hidden;
+    border-radius: 6px;
 }
 
 article figure img {
@@ -284,6 +287,7 @@ article .meta-bottom .tags a {
     color: #fff;
     padding: 2px 6px 4px 6px;
     transition: background-color 500ms;
+    border-radius: 2px;
 }
 
 article .meta-bottom .tags a:hover {
@@ -304,6 +308,7 @@ article .meta-bottom .read-more a {
     display: block;
     padding: 4px 10px;
     transition: box-shadow ease 300ms;
+    border-radius: 2px;
 }
 
 article .meta-bottom .read-more a:hover {
@@ -337,13 +342,12 @@ article table td {
 .pagination {
     text-align: center;
     margin: 10px 0 0 0;
-    ;
 }
 
 .pagination a {
     display: inline-block;
     padding: 4px 10px;
-    border-radius: 2px;
+    border-radius: 4px;
     line-height: 1.25;
     color: #fff;
     background-color: #555555;
@@ -359,8 +363,9 @@ article table td {
     display: inline-block;
     padding: 4px 10px;
     color: #eee;
-    background-color: #888888;
+    background-color: #999999;
     border: 1px solid #ffffff;
+    border-radius: 4px;
 }
 
 .sider {
@@ -389,6 +394,7 @@ input[type=submit] {
     margin-bottom: 15px;
     background-color: #fff;
     box-shadow: 0 0 5px #ddd;
+    border-radius: 10px;
 }
 
 .function:hover {
@@ -628,7 +634,7 @@ input[type=submit] {
     display: block;
     height: 33px;
     line-height: 35px;
-    border-radius: 2px;
+    border-radius: 4px;
     background-color: #444;
     color: #fff;
 }
@@ -746,6 +752,7 @@ input[type=submit] {
     margin: 0 0 15px;
     clear: both;
     overflow: hidden;
+    border-radius: 6px;
 }
 
 .single-navigation a {
@@ -869,6 +876,7 @@ input[type=submit] {
     list-style: none;
     border: 1px solid #dfdfdf;
     font-size: 15px;
+    border-radius: 6px;
 }
 
 .msgname {
@@ -879,6 +887,7 @@ input[type=submit] {
     color: #666;
     font-size: 15px;
     line-height: 22px;
+    word-wrap: break-word;
 }
 
 .commentName {
@@ -899,6 +908,7 @@ input[type=submit] {
     padding: 2px 6px;
     transition: all .3s;
     margin-left: 10px;
+    border-radius: 2px;
 }
 
 .revertcomment a:hover {
@@ -917,6 +927,9 @@ input[type=submit] {
     border: 1px solid #aaa;
     border-radius: 0;
     font-family: 'Microsoft Yahei';
+    border-radius: 4px;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
 }
 
 #txaArticle:focus {
@@ -934,6 +947,9 @@ input[type=submit] {
     border-radius: 0;
     line-height: 21px;
     font-family: 'Microsoft Yahei';
+    border-radius: 4px;
+    padding:  4px 5px;
+    font-size: 0.95rem;
 }
 
 #divCommentPost label {
@@ -946,6 +962,7 @@ input[type=submit] {
     outline: none;
     border: 1px solid #666666;
     border-radius: 0;
+    border-radius: 4px;
 }
 
 #divCommentPost input.button {
@@ -953,6 +970,7 @@ input[type=submit] {
     transition: box-shadow 300ms ease;
     padding: 6px 30px;
     width: 100px;
+    border-radius: 4px;
 }
 
 #divCommentPost input.button:hover {
