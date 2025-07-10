@@ -31,6 +31,22 @@
 		{/if}
 	</div>
 </div>
+<!-- get-dollars -->
+<div class="get-dollars box-border" style="margin-bottom:15px;padding: 20px 25px">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0188145692330625"
+     crossorigin="anonymous"></script>
+<!-- 文章下方 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0188145692330625"
+     data-ad-slot="1366446568"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <div class="relates box-border">
 	<div class="title"><h3>相关文章</h3></div>
 	{$array=GetList($zbp->option['ZC_RELATEDLIST_COUNT'],null,null,null,null,null,array('is_related'=>$article->ID));}
